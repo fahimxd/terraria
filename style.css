@@ -1,0 +1,299 @@
+#p1{
+    background: linear-gradient(to right, rgb(126, 47, 205),rgb(16, 101, 83));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#p2{
+    background: linear-gradient(to right, rgb(199,0,57),rgb(255,195,0)) ;
+}
+.zb{
+    border: 2px red solid;
+}
+.l{
+    background: url("image/xx.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    color: rgb(21, 240, 24);
+    font-family: Open Sans;
+    font-size: 25px;
+}
+.d{
+    background: url("image/night.png") no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(21, 240, 24);
+    font-family: Open Sans;
+    font-size: 25px;
+    position: relative;
+
+}
+#b1{
+    place-items: center;
+    position: relative;
+    padding: 8rem;
+    background: linear-gradient(to right,rgb(255, 1, 1),rgb(13, 41, 225));
+    padding: 3px;
+}
+#in1{
+    background:linear-gradient(to right,rgb(115, 120, 214),rgb(115, 120, 214),rgb(218, 112, 112));
+    color: aliceblue;
+    font-size: 25px;
+}
+#w3{
+    font-size: 60px;
+    color: greenyellow;
+}
+#Raleway{
+    font-family: "Raleway";
+}
+table{
+    width: 500px;
+    text-align: center;
+    place-items: center;
+    position: relative;
+}
+#topt{
+    background-color: black;
+}
+#top{
+    background-color: black;
+    color: rgb(215, 215, 215);
+    padding-right: 10px;
+    text-decoration: none;
+}
+#top:hover{
+    color: rgb(130, 248, 34);
+}
+#normal{
+    background-color: rgb(41, 41, 41);
+    color: rgb(180, 180, 180);
+}
+#s1{
+    background-color: rgb(41, 41, 41);
+    color: rgb(180, 180, 180);
+    float: right;
+}
+#s2{
+    background-color: rgb(41, 41, 41);
+    color: rgb(180, 180, 180);
+    float: right;
+}
+#e1{
+    float:right;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px;
+}
+#terraria{
+    font-family: "terraria";
+    color: rgb(230, 230, 230);
+    background: linear-gradient(rgba(0, 0, 0, 0.778),rgba(0, 0, 0, 0.424));
+}
+@font-face {
+    font-family: "terraria";
+    src: url("font/Terraria.TTF");
+}  
+#la{
+    background: radial-gradient(circle at top, rgb(99, 26, 26), rgb(163, 36, 36) 50%, rgb(245, 56, 56) 90%, #333 75%);    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    color: rgb(26, 26, 26);
+    font-family: Open Sans;
+    font-size: 25px;
+    
+}
+#box1{
+    border: 20px,solid,center;
+    min-height: 300px;
+    max-width: 600px;
+    background-color: rgb(255, 245, 245);
+    width: 98%;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.529);
+    transition: 0.7s;
+
+    
+}
+#box1:hover{
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    transition: 0.7s;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.812);
+}
+#ado{
+    transition: 0.5s;
+    border-radius: 25px;
+    padding: 20px;
+    height:50px;
+    width: 50px;
+    transform: rotate(-15deg);
+}
+#ado:hover{
+    background: radial-gradient(circle at center, rgba(255, 0, 0, 0.288) 0, rgba(0, 0, 255, 0), rgba(0, 128, 0, 0) 100%);
+    filter: drop-shadow(5px 5px 5px rgba(7, 7, 7, 0.819));
+    transition: 0.7s;
+    transform: scale(120%);
+    padding: 20px;
+    
+} 
+#aup{
+    place-items: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    transition: 0.7s;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: 900px;
+    width: 70%;
+}
+.hh1{
+    place-items: center;
+    position: relative;
+    display: grid;
+    grid-area: header;
+    grid-template-columns: auto;
+    transition: 0.7s;
+    border-radius: 25px;
+    padding: 10px;
+    width: 80%;
+    max-width: 900px;
+}
+#c1{
+    border: 1px rgb(255, 255, 255) solid;
+    height: 300px;
+    width: 90%;
+    max-width: 550px;
+    padding: 20px;
+    padding-top: 40px;
+    color: white;
+    background-color: rgba(10, 22, 129, 0.445);
+    position: relative;
+    left: -100%;
+    transition: 0.5s;
+
+}
+#c2{
+    width: 70%;
+    border: white 1px solid;
+    height: 80% ;
+    float: left;
+    margin: auto;
+    transition: 0.5s;
+}
+#c2a{
+    height: 100%;
+    margin-left: 50px;
+    position: relative;
+    transition: 0.5s;
+}
+#c1a{
+    margin-left: auto;
+    position: relative;
+    left: 10px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+#li{
+    color: white;
+    transition: 0.5s;
+}
+#pot{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: auto;
+    max-width: 650px;
+    background-color: rgba(85, 103, 206, 0.644);
+    transition: 0.7s;
+    border-radius: 20px;
+}
+#bisbac{
+    position: absolute;
+    width: 800px;
+    top: 0px;
+    z-index:-2;
+    left: 0px;
+    transition: 1s;
+
+}
+#bisbac1{
+    position: absolute;
+    width: 800px;
+    top: 0px;
+    z-index:-1;
+    left: 0px;
+    transition: 1s;
+    visibility: hidden;
+    opacity: 0;
+}
+#bisbak{
+    position: relative;
+    width: 800px;
+    height: 450px;
+    margin: auto;
+    overflow:hidden;
+}
+#fogs{
+    background: radial-gradient(circle at center, rgba(255, 0, 0, 0) 0, rgba(25, 25, 70, 0.329), rgb(27, 28, 90) 100%);
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    opacity: 0%;
+    transition: 1s;
+}
+#bim{
+    width: 800px;
+    bottom: 50px;
+    margin-top: 125px;
+    position: relative;
+}
+#bims1{
+    width: 100%;
+}
+#bims2{
+    position: absolute;
+    bottom: 165px;
+    left: 50px;
+    transform: scale(0.9);
+    /*visibility: hidden;*/
+    transition: 1s;
+}
+#bims3{
+    position: absolute;
+    bottom: 210px;
+    left: 450px;
+    bottom: 270px;
+    left: 400px;
+    transform: scale(0.8);
+    /*visibility: hidden;*/
+    transition: 1s;
+
+}
+#bims4{
+    position: absolute;
+    bottom: 125px;
+    left: 450px;
+    transform: scale(0.8);
+    /*visibility: hidden;*/
+    transition: 1s;
+}
+#bibd{
+    max-width: 800px;
+    height: 350px;
+    margin: auto;
+    
+}
+#biomeSwitch{
+    place-items: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 800px;
+    margin: auto;
+
+}
+#btnbi:hover{
+    background-color: rgb(255, 166, 0);
+}
